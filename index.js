@@ -22,7 +22,7 @@ function destructivelyRemoveFirstDriver()
 
 function appendDriver(name)
 {
-  var newarray =  drivers.push(name);
+  var newarray =  [newaarray, ...drivers];
   return newarray;
 }
   
