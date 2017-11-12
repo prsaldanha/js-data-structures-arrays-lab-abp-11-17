@@ -28,5 +28,6 @@ function appendDriver(name)
 
 function prependDriver(name)
 {
-  var newarray = [name, ...drivers]
+  var newarray = [name, ...drivers];
+  return newarray;
 }
